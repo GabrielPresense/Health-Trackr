@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    color: #06A9B1;
+    height: 100%;
+}
+
+/*Menu
+-----------------------------*/
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #06a9b1;
+    padding: 8px 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+    padding: 8px 12px;
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-horizontal li.dropdown:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+    padding: 10 0px;
+}
+
+.menu-vertical li {
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    color: #fff;
+    background: #06a9b1;
+    text-decoration: none;
+}
+
+/*Agendamento
+-----------------------------*/
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}

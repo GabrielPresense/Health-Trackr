@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="agendamento-estilo.css">
+    <title>Health Trackr</title>
+</head>
+<body>
+
+    <header>
+        <nav class="menu">
+            <ul class="menu-horizontal">
+                <li class="dropdown">
+                    <a href="#health-trackr">Health Trackr</a>
+                    <ul class="menu-vertical">
+                        <li><a href="#quem-somos">Quem somos</a></li>
+                        <li><a href="#ouvidoria">Ouvidoria</a></li>
+                    </ul>
+                <li class="dropdown">
+                    <a href="#servicos">Serviços</a>
+                    <ul class="menu-vertical">
+                        <li><a href="../agendamento/index.html">Agende Sua Consulta</a></li>
+                        <li><a href="#centro-medico">Centro Médico</a></li>
+                        <li><a href="#pronto-atendimento">Pronto Atendimento</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#exames">Exames</a>
+                    <ul class="menu-vertical">
+                        <li><a href="#exames-de-sangue">Exames de Sangue</a></li>
+                        <li><a href="#exame-de-imagem">Exames de Imagem</a></li>
+                        <li><a href="#eletrocardiograma">Eletrocardiograma (ECG)</a></li>
+                        <li><a href="#endoscopia-e-colonoscopia">Endoscopia e Colonoscopia</a></li>
+                        <li><a href="#exames-de-funcao-pulmonar">Exames de Função Pulmonar</a></li>
+                    </ul>
+                </li>
+                <li><a href="#internações">Internações</a></li>
+                <li><a href="#convenio">Convênio</a></li>
+                <li><a href="#novidades">Novidades</a></li>
+                <li><a href="#atendimento">Atendimento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h2>Agendar</h2>
+        <form id="appointment-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Hora:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit">Agendar</button>
+        </form>
+    </div>
+
+    <script src="agendamento-script.js"></script>
+    
+</body>
+</html>
