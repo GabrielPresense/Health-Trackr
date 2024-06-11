@@ -39,20 +39,20 @@ body, html {
 
 /*Menu
 -----------------------------*/
-a{
+a {
     text-decoration: none;
 }
 
-a:link, a:visited{
-    color: #06A9B1;
+a:link,
+a:visited {
+    color: #06a9b1;
     padding: 8px 12px;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
     padding: 8px 12px;
 }
-
 
 ul li {
     list-style-position: inside;
@@ -69,11 +69,32 @@ nav ul {
     margin-bottom: 20px;
 }
 
-a:hover{
+.menu-horizontal li.dropdown:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+    padding: 10 0px;
+}
+
+.menu-vertical li {
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
     color: #fff;
-    background: #06A9B1;
+    background: #06a9b1;
     text-decoration: none;
 }
+
+
+
 
 /*Conteúdo
 -----------------------------*/
