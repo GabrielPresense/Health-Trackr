@@ -43,6 +43,10 @@ a {
     text-decoration: none;
 }
 
+.menu{
+    transition: opacity 0.6s ease;
+}
+
 a:link,
 a:visited {
     color: #06a9b1;
@@ -93,12 +97,9 @@ a:hover {
     text-decoration: none;
 }
 
-
-
-
 /*Conteúdo
 -----------------------------*/
-main {
+*main {
     display: grid;
     gap: 20px;
     margin: 20px 20px;
@@ -109,18 +110,19 @@ main {
       grid-template-columns: 1fr;
     }
   }
-
-main > section {
-    padding: 20px;
-  }
   
-  main section,
-  main article {
-    color: black;
+main section,
+main article {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    display: flex;
+    display: flex;  
   }
+
+.container{
+    padding: 20px;
+    box-shadow: 10px 10px 20px #babecc,
+                -10px -10px 20px #ffffff;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="agendamento-estilo.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Health Trackr</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <nav class="menu">
             <ul class="menu-horizontal">
                 <li class="dropdown">
-                    <a href="#health-trackr">Health Trackr</a>
+                    <a href="../../index.html">Health Trackr</a>
                     <ul class="menu-vertical">
                         <li><a href="#quem-somos">Quem somos</a></li>
                         <li><a href="#ouvidoria">Ouvidoria</a></li>
@@ -47,9 +48,9 @@
         <h2>Agendar</h2>
         <form id="appointment-form">
             <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" placeholder="Digite seu nome" name="name" required>
             <label for="phone">Telefone:</label>
-            <input type="tel" id="phone" name="phone" required>
+            <input type="tel" id="phone" placeholder="(00) 00000-0000" name="phone" required><br>
             <label for="date">Data:</label>
             <input type="date" id="date" name="date" required>
             <label for="time">Hora:</label>
