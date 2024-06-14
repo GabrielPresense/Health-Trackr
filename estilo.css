@@ -43,10 +43,6 @@ a {
     text-decoration: none;
 }
 
-.menu{
-    transition: opacity 0.6s ease;
-}
-
 a:link,
 a:visited {
     color: #06a9b1;

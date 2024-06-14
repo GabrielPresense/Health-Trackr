@@ -1,7 +1,6 @@
 document.getElementById('appointment-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
-
     var name = document.getElementById('name').value;
     var phone = document.getElementById('phone').value;
     var date = document.getElementById('date').value;
@@ -35,3 +34,4 @@ document.getElementById('form-group').addEventListener('submit', function(event)
     var whatsappLink = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(phone) + '&text=' + message;
     window.open(whatsappLink, '_blank');
 });
+  

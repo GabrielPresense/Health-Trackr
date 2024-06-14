@@ -72,9 +72,10 @@ a:hover {
 }
 
 input[type="text"],
-input[type="tel"], /* Change this from input[type="phone"] */
+input[type="tel"],
 input[type="date"],
 input[type="time"],
+input[type="cpf"],
 button {
     width: 100%;
     margin-bottom: 10px;
@@ -82,6 +83,12 @@ button {
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
+}
+
+#tipoExame{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 button {

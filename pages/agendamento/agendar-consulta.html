@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="agendamento-estilo.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Health Trackr</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>      
 </head>
 <body>
 
@@ -15,7 +18,7 @@
                 <li class="dropdown">
                     <a href="../../index.html">Health Trackr</a>
                     <ul class="menu-vertical">
-                        <li><a href="#quem-somos">Quem somos</a></li>
+                        <li><a href="../../index.html">Quem somos</a></li>
                         <li><a href="#ouvidoria">Ouvidoria</a></li>
                     </ul>
                 <li class="dropdown">
@@ -29,11 +32,61 @@
                 <li class="dropdown">
                     <a href="#exames">Exames</a>
                     <ul class="menu-vertical">
-                        <li><a href="#exames-de-sangue">Exames de Sangue</a></li>
-                        <li><a href="#exame-de-imagem">Exames de Imagem</a></li>
-                        <li><a href="#eletrocardiograma">Eletrocardiograma (ECG)</a></li>
-                        <li><a href="#endoscopia-e-colonoscopia">Endoscopia e Colonoscopia</a></li>
-                        <li><a href="#exames-de-funcao-pulmonar">Exames de Função Pulmonar</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Avaliação de Vias Lacrimais</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Biópsia de Colo de Útero</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Cauterização Lesão Peniana</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Cauterização Química</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Clareamento de Retina</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Colesterol Total e Frações</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Coleta de papanicolau</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Colocação de DIU</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Colposcopia + Vulvoscopia</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Creatinina</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Densitometria (Coluna e Fêmur)</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ecocardiograma com Doppler</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Eletrocauterização</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Endoscopia</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Exame Ácido Úrico</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Exame de Fezes</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Exames cardiológicos</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Exames laboratoriais</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Exames oftalmológicos</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Fundoscopia</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Holter</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Infiltração com Corticóides</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Mamografia</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Mapa</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Mapeamento retina</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Nasofibroscopia</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Peeling (Completo)</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">PSA Total</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X Braço</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X Coluna Cervical 2 Incidências</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X Coluna Lombo Sacra 3 Incidências</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X Joelho 2 Incidências</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X Mão</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X Pé</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Raio-X Seios da Face</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ressonância</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Retirada de Corpo Estranho</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Retirada de Vasos</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Sessão Fisioterapia</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Teste Ergométrico</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Tonometria</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Triglicérides</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultra Doppler Colorido Venoso (Membro Superior Unilateral)</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom 3D e 4D</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Abdomen</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Aparelho Urinário</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Morfológico</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Obstétrico</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Próstata Via Abdominal</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Tireóide</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Tireóide</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassom Transvaginal</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Ultrassonografia</a></li>
+                        <li><a href="/pages/agendamento/agendar-consulta.html">Urina Rotina</a></li>           
                     </ul>
                 </li>
                 <li><a href="#internações">Internações</a></li>
@@ -49,6 +102,65 @@
         <form id="appointment-form">
             <label for="name">Nome:</label>
             <input type="text" id="name" placeholder="Digite seu nome" name="name" required>
+            <label for="cpf">CPF:</label>
+            <input type="cpf" id="cpf" placeholder="Digite seu CPF" cpf="number" required>
+            <label for="tipoExame">Tipo de Exame:</label><br>
+                <select id="tipoExame" name="tipoExame">
+                    <option value="avaliacao_vias_lacrimais">Avaliação de Vias Lacrimais</option>
+                    <option value="biopsia_colo_utero">Biópsia de Colo de Útero</option>
+                    <option value="cauterizacao_lesao_peniana">Cauterização Lesão Peniana</option>
+                    <option value="cauterizacao_quimica">Cauterização Química</option>
+                    <option value="clareamento_retina">Clareamento de Retina</option>
+                    <option value="colesterol_total_fraccoes">Colesterol Total e Frações</option>
+                    <option value="coleta_papanicolau">Coleta de papanicolau</option>
+                    <option value="colocacao_diu">Colocação de DIU</option>
+                    <option value="colposcopia_vulvoscopia">Colposcopia + Vulvoscopia</option>
+                    <option value="creatinina">Creatinina</option>
+                    <option value="densitometria">Densitometria (Coluna e Fêmur)</option>
+                    <option value="ecocardiograma_doppler">Ecocardiograma com Doppler</option>
+                    <option value="eletrocauterizacao">Eletrocauterização</option>
+                    <option value="endoscopia">Endoscopia</option>
+                    <option value="exame_acido_urico">Exame Ácido Úrico</option>
+                    <option value="exame_fezes">Exame de Fezes</option>
+                    <option value="exames_cardiologicos">Exames cardiológicos</option>
+                    <option value="exames_laboratoriais">Exames laboratoriais</option>
+                    <option value="exames_oftalmologicos">Exames oftalmológicos</option>
+                    <option value="fundoscopia">Fundoscopia</option>
+                    <option value="holter">Holter</option>
+                    <option value="infiltracao_corticoides">Infiltração com Corticóides</option>
+                    <option value="mamografia">Mamografia</option>
+                    <option value="mapa">Mapa</option>
+                    <option value="mapeamento_retina">Mapeamento retina</option>
+                    <option value="nasofibroscopia">Nasofibroscopia</option>
+                    <option value="peeling_completo">Peeling (Completo)</option>
+                    <option value="psa_total">PSA Total</option>
+                    <option value="raio_x">Raio-X</option>
+                    <option value="raio_x_braco">Raio-X Braço</option>
+                    <option value="raio_x_coluna_cervical">Raio-X Coluna Cervical 2 Incidências</option>
+                    <option value="raio_x_coluna_lombo_sacra">Raio-X Coluna Lombo Sacra 3 Incidências</option>
+                    <option value="raio_x_joelho">Raio-X Joelho 2 Incidências</option>
+                    <option value="raio_x_mao">Raio-X Mão</option>
+                    <option value="raio_x_pe">Raio-X Pé</option>
+                    <option value="raio_x_seios_face">Raio-X Seios da Face</option>
+                    <option value="ressonancia">Ressonância</option>
+                    <option value="retirada_corpo_estranho">Retirada de Corpo Estranho</option>
+                    <option value="retirada_vasos">Retirada de Vasos</option>
+                    <option value="sessao_fisioterapia">Sessão Fisioterapia</option>
+                    <option value="teste_ergometrico">Teste Ergométrico</option>
+                    <option value="tonometria">Tonometria</option>
+                    <option value="triglicerides">Triglicérides</option>
+                    <option value="ultra_doppler_colorido_venoso">Ultra Doppler Colorido Venoso (Membro Superior Unilateral)</option>
+                    <option value="ultrassom_3d_4d">Ultrassom 3D e 4D</option>
+                    <option value="ultrassom_abdomen">Ultrassom Abdomen</option>
+                    <option value="ultrassom_aparelho_urinario">Ultrassom Aparelho Urinário</option>
+                    <option value="ultrassom_morfologico">Ultrassom Morfológico</option>
+                    <option value="ultrassom_obstetrico">Ultrassom Obstétrico</option>
+                    <option value="ultrassom_prostata_abdominal">Ultrassom Próstata Via Abdominal</option>
+                    <option value="ultrassom_tireoide">Ultrassom Tireóide</option>
+                    <option value="ultrassom_transvaginal">Ultrassom Transvaginal</option>
+                    <option value="ultrassonografia">Ultrassonografia</option>
+                    <option value="urina_rotina">Urina Rotina</option>
+                </select><br>                
             <label for="phone">Telefone:</label>
             <input type="tel" id="phone" placeholder="(00) 00000-0000" name="phone" required><br>
             <label for="date">Data:</label>
