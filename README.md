@@ -123,3 +123,19 @@ N → [a-zA-Z0-9@#!]O | [a-zA-Z0-9@#!]
 O → [a-zA-Z0-9@#!]O | λ
 }
 ```
+
+## Estrutura de Dados 2
+
+Fizemos um sistema que marca o atendimento com a data, horário e descrição.
+
+__Tabela Hash__
+
+Link: https://replit.com/@HudsonUccelli1/AEPhash
+
+__Grafo__
+
+Link: https://replit.com/@HudsonUccelli1/AEPgrafo
+
+__Árvore__
+
+Link: https://replit.com/@HudsonUccelli1/AEParvore
