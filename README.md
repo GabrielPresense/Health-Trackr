@@ -5,7 +5,7 @@ Integrantes:
 - Hudson Uccelli Matias dos Santos RA: 22045746-2
 - Pedro Henrique de Abreu Lourenço RA: 22014566-2
 
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/116506548?v=4" width=90><br><sub>Hudson Matias</sub>](https://github.com/Hudson-Matias)<br>[<img loading="lazy" src="https://avatars.githubusercontent.com/u/134865625?v=4" width=90><br><sub>Gabriel Presense</sub>](https://github.com/GabrielPresense)<br>[<img loading="lazy" src="https://avatars.githubusercontent.com/u/118847988?v=4" width=90><br><sub>Pedro Lourenço</sub>](https://github.com/PedroHLourenco)[:---:]
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/116506548?v=4" width=90><br><sub>Hudson Matias</sub>](https://github.com/Hudson-Matias)<br>[<img loading="lazy" src="https://avatars.githubusercontent.com/u/134865625?v=4" width=90><br><sub>Gabriel Presense</sub>](https://github.com/GabrielPresense)<br>[<img loading="lazy" src="https://avatars.githubusercontent.com/u/118847988?v=4" width=90><br><sub>Pedro Lourenço</sub>](https://github.com/PedroHLourenco)
 
 **Logo abaixo será as entregas e a explicação de cada matéria** 
 
