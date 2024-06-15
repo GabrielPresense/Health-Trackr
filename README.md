@@ -5,7 +5,7 @@ Integrantes:
 - Hudson Uccelli Matias dos Santos RA: 22045746-2
 - Pedro Henrique de Abreu Lourenço RA: 22014566-2
 
-*Logo abaixo será as entregas e a explicação de cada matéria* 
+**Logo abaixo será as entregas e a explicação de cada matéria** 
 
 ## Teoria da Computação
 
@@ -14,7 +14,7 @@ _AFD (Autômato Finito Deterministico)_
 Fizemos a parte de login sendo o nome de apenas 10 caracteres.
 Que seria feito assim:
 
-*Para login:*
+**Para login:**
 ```
 q0 --[a-zA-Z0-9]--> q1
 q1 --[a-zA-Z0-9]--> q2
@@ -29,7 +29,7 @@ q9 --[a-zA-Z0-9]--> q10
 q10 --[a-zA-Z0-9]--> q11
 ```
 
-*Para senha:*
+**Para senha:**
 ```
 q0 --[abcdefghijklmnopqrstuvwxyz]--> q1 (tem minúscula)
 q0 --[ABCDEFGHIJKLMNOPQRSTUVWXYZ]--> q2 (tem maiúscula)
