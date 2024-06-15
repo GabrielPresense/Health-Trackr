@@ -8,6 +8,7 @@ Integrantes:
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/116506548?v=4" width=90><br><sub>Hudson Matias</sub>](https://github.com/Hudson-Matias)|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/134865625?v=4" width=90><br><sub>Gabriel Presense</sub>](https://github.com/GabrielPresense)|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/118847988?v=4" width=90><br><sub>Pedro Lourenço</sub>](https://github.com/PedroHLourenco)
 :--------- | :------: | -------:
 <br>
+
 **Logo abaixo será as entregas e a explicação de cada matéria** 
 
 ## Teoria da Computação
