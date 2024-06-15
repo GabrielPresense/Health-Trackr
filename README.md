@@ -32,7 +32,7 @@ q10 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q11
 
 #### Regras para a Senha do Usuário
 A senha deve ter entre 6 e 12 caracteres.
-A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula, um dígito e um caractere especial (por exemplo, @, #, !, etc.).
+A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula, um dígito e um caractere especial (por exemplo, @, #, !).
 
 **Para senha:**
 ```
@@ -72,3 +72,54 @@ q13 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#!]--> q13
 
 _GR (Gramática Regular)_
 
+#### Regras para o Nome de Usuário
+O nome de usuário deve ter entre 3 e 10 caracteres.
+O nome de usuário deve conter apenas letras (maiúsculas ou minúsculas) e dígitos.
+_Na regra de produção eu simplifiquei_
+**Para login:**
+```
+V = {S, A, B, C, D, E, F, G, H, I, J}
+T = {a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0,1,2,3,4,5,6,7,8,9}
+𝑆 = S
+P = {
+S → A ∣ B ∣ C ∣ D ∣ E ∣ F ∣ G ∣ H ∣ I
+A → [a−zA−Z0−9]A ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+B → [a−zA−Z0−9]B ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+C → [a−zA−Z0−9]C ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+D → [a−zA−Z0−9]D ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+E → [a−zA−Z0−9]E ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+F → [a−zA−Z0−9]F ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+G → [a−zA−Z0−9]G ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+H → [a−zA−Z0−9]H ∣ [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+I → [a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9][a−zA−Z0−9]
+}
+```
+
+#### Regras para a Senha do Usuário
+A senha deve ter entre 6 e 12 caracteres.
+A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula, um dígito e um caractere especial (por exemplo, @, #, !, etc.).
+
+**Para senha:**
+```
+V = {S, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O}
+T = {a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,0,1,2,3,4,5,6,7,8,9,@,#,!}
+𝑆 = S
+P = {
+S→ A ∣ B ∣ C ∣ D ∣ E ∣ F ∣ G ∣ H ∣ I ∣ J ∣ K ∣ L ∣ M  ∣ N 
+A → [a−z]B
+B → [A−Z]C
+C → [0−9]D
+D → [@#!]E
+E → [a-zA-Z0-9@#!]F | [a-zA-Z0-9@#!][a-zA-Z0-9@#!][a-zA-Z0-9@#!][a-zA-Z0-9@#!][a-zA-Z0-9@#!][a-zA-Z0-9@#!]
+F → [a-zA-Z0-9@#!]G | [a-zA-Z0-9@#!][a-zA-Z0-9@#!]
+G → [a-zA-Z0-9@#!]H | [a-zA-Z0-9@#!]
+H → [a-zA-Z0-9@#!]I
+I → [a-zA-Z0-9@#!]J
+J → [a-zA-Z0-9@#!]K
+K → [a-zA-Z0-9@#!]L
+L → [a-zA-Z0-9@#!]M
+M → [a-zA-Z0-9@#!]N
+N → [a-zA-Z0-9@#!]O | [a-zA-Z0-9@#!]
+O → [a-zA-Z0-9@#!]O | λ
+}
+```
