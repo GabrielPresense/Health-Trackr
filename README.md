@@ -11,8 +11,9 @@ Integrantes:
 
 _AFD (Autômato Finito Deterministico)_
 
-Fizemos a parte de login sendo o nome de apenas 10 caracteres.
-Que seria feito assim:
+#### Regras para Nome de Usuário
+O nome de usuário deve ter entre 3 e 10 caracteres.
+O nome de usuário deve conter apenas letras (maiúsculas ou minúsculas) e dígitos.
 
 **Para login:**
 ```
@@ -28,6 +29,10 @@ q8 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q9
 q9 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q10
 q10 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q11
 ```
+
+#### Regras para a Senha do Usuário
+A senha deve ter entre 6 e 12 caracteres.
+A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula, um dígito e um caractere especial (por exemplo, @, #, !, etc.).
 
 **Para senha:**
 ```
