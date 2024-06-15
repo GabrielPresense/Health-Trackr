@@ -9,7 +9,7 @@ Integrantes:
 
 ## Teoria da Computação
 
-_AFD (Autômato Finito Deterministico)_
+### _AFD (Autômato Finito Deterministico)_
 
 #### Regras para Nome de Usuário
 O nome de usuário deve ter entre 3 e 10 caracteres.
@@ -70,7 +70,7 @@ q12 --[abcdefghijklmnopqrstuvwxyz@#!]--> q13
 q13 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#!]--> q13
 ```
 
-_GR (Gramática Regular)_
+### _GR (Gramática Regular)_
 
 #### Regras para o Nome de Usuário
 O nome de usuário deve ter entre 3 e 10 caracteres.
