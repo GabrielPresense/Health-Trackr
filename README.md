@@ -5,11 +5,7 @@ Integrantes:
 - Hudson Uccelli Matias dos Santos RA: 22045746-2
 - Pedro Henrique de Abreu Lourenço RA: 22014566-2
 
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/116506548?v=4" width=90><br><sub>Hudson Matias</sub>](https://github.com/Hudson-Matias)|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/134865625?v=4" width=90><br><sub>Gabriel Presense</sub>](https://github.com/GabrielPresense)|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/118847988?v=4" width=90><br><sub>Pedro Lourenço</sub>](https://github.com/PedroHLourenco)
-:--------- | :------: | -------:
-<br>
-
-**Logo abaixo será as entregas e a explicação de cada matéria** 
+**Logo abaixo serão as entregas e a explicação de cada matéria** 
 
 ## Teoria da Computação
 
@@ -151,4 +147,27 @@ As métricas são apresentadas por meio de um relatório no Lighthouse.
 
 __Relatório Health Trackr__
 
-Link: https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fgabrielpresense.github.io%2FHealth-Trackr%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext
+Link do relatório: https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fgabrielpresense.github.io%2FHealth-Trackr%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext
+
+__Relatório de concorrentes__
+
+**Conexa**
+o maior ecossistema digital de saúde física e mental.
+
+Link do relatório: https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwww.conexasaude.com.br%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext
+
+Link da plataforma: https://www.conexasaude.com.br/
+
+**Dr. Consulta**
+Plataforma concentrada na região de São Paulo, com foco nas mais variadas especializações médicas
+
+Link do relatório: https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fdrconsulta.com%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext
+
+Link da plataforma: https://drconsulta.com/
+
+**Teladoc**
+Único concorrente estrangeiro, traz uma série de soluções relacionadas à saúde na região de Nova York
+
+Link do relatório: https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwww.teladochealth.com%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext
+
+Link da plataforma: https://www.teladochealth.com/
