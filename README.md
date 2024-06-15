@@ -5,6 +5,8 @@ Integrantes:
 - Hudson Uccelli Matias dos Santos RA: 22045746-2
 - Pedro Henrique de Abreu Lourenço RA: 22014566-2
 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Hudson Uccelli Matias</sub>](https://github.com/Hudson-Matias) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Gabriel Presense</sub>](https://github.com/GabrielPresense) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Pedro Lourenço</sub>](https://github.com/PedroHLourenco)
+
 **Logo abaixo será as entregas e a explicação de cada matéria** 
 
 ## Teoria da Computação
