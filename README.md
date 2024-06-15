@@ -16,17 +16,17 @@ Que seria feito assim:
 
 **Para login:**
 ```
-q0 --[a-zA-Z0-9]--> q1
-q1 --[a-zA-Z0-9]--> q2
-q2 --[a-zA-Z0-9]--> q3
-q3 --[a-zA-Z0-9]--> q4
-q4 --[a-zA-Z0-9]--> q5
-q5 --[a-zA-Z0-9]--> q6
-q6 --[a-zA-Z0-9]--> q7
-q7 --[a-zA-Z0-9]--> q8
-q8 --[a-zA-Z0-9]--> q9
-q9 --[a-zA-Z0-9]--> q10
-q10 --[a-zA-Z0-9]--> q11
+q0 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q1
+q1 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q2
+q2 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q3
+q3 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q4
+q4 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q5
+q5 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q6
+q6 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q7
+q7 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q8
+q8 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q9
+q9 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q10
+q10 --[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789]--> q11
 ```
 
 **Para senha:**
