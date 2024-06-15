@@ -139,3 +139,12 @@ Link: https://replit.com/@HudsonUccelli1/AEPgrafo
 __Árvore__
 
 Link: https://replit.com/@HudsonUccelli1/AEParvore
+
+## Métricas de Software
+
+Fizemos uma pesquisa de mercado, onde foram apresentadas as métricas presentes tanto nos concorrentes quanto no software desenvolvido.
+As métricas são apresentadas por meio de um relatório no Lighthouse.
+
+__Relatório Health Trackr__
+
+Link: https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fgabrielpresense.github.io%2FHealth-Trackr%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&locale=pt&utm_source=lh-chrome-ext
