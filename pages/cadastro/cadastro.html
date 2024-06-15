@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro-estilo.css">
+    <title>Health Trackr - Cadastro</title>
+</head>
+<body>
+
+    <header class="fixed-header">
+        <div class="site-header">
+            <h1 class="site-title"><a href="../../index.html">Health Trackr</a></h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="signup-container">
+                <h2>Cadastro</h2>
+                <form class="signup-form" action="/cadastro" method="POST">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                    <button type="submit">Cadastrar</button>
+                </form>
+                <div class="login-link">
+                    Já tem uma conta? <a href="../login/login.html">Faça login aqui</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Seu rodapé existente aqui -->
+    </footer>
+
+</body>
+</html>

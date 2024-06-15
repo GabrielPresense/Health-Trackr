@@ -122,3 +122,23 @@ main article {
     box-shadow: 10px 10px 20px #babecc,
                 -10px -10px 20px #ffffff;
 }
+
+/*Botão
+-----------------------------*/
+.botao-login, .botao-cadastro {
+    display: inline-block;
+    margin-left: 10px; /* ajuste conforme necessário */
+}
+
+.botao-login a, .botao-cadastro a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff; /* cor de fundo */
+    color: #fff; /* cor do texto */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao-login a:hover, .botao-cadastro a:hover {
+    background-color: #0056b3; /* cor de fundo ao passar o mouse */
+}
