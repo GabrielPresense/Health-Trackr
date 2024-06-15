@@ -142,3 +142,38 @@ main article {
 .botao-login a:hover, .botao-cadastro a:hover {
     background-color: #0056b3; /* cor de fundo ao passar o mouse */
 }
+
+/*Texto
+----------------------------*/
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #1a73e8;
+}
