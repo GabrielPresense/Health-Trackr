@@ -7,6 +7,10 @@ Integrantes:
 
 **Logo abaixo serão as entregas e a explicação de cada matéria** 
 
+## Setor Web
+
+Link do site: https://gabrielpresense.github.io/Health-Trackr/
+
 ## Teoria da Computação
 
 ### _AFD (Autômato Finito Deterministico)_
